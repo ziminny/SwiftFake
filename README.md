@@ -28,7 +28,7 @@ dependencies: [
 ### Cocoapods
 Add to your `Podfile.swift`:
 ```ruby
-pod 'SwiftFake', '~> 1.0'
+pod 'SwiftFake', :git => 'https://github.com/ziminny/SwiftFake.git'
 ```
 
 ## Usage 
