@@ -7,7 +7,7 @@
 
 import Foundation
 
-public class FakeBoolean:FalsifiedDataProtocol {
+public class FakeBoolean: FalsifiedDataProtocol {
     
     public typealias Value = Bool
     

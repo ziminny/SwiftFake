@@ -7,7 +7,7 @@
 
 import Foundation
 
-public class FakeCNPJ:FalsifiedDataProtocol {
+public class FakeCNPJ: FalsifiedDataProtocol {
     
     public typealias Value = String
     

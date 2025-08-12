@@ -1,5 +1,5 @@
 //
-//  FakeVehicleModels.swift
+//  FakePasswords.swift
 //  SwiftFake
 //
 //  Created by Vagner Oliveira on 11/08/25.
@@ -7,48 +7,59 @@
 
 import Foundation
 
-public class FakeVehicleModels: FalsifiedDataProtocol {
+public class FakePasswords: FalsifiedDataProtocol {
     
     public typealias Value = String
     
     public var value:Value {
         [
-            "Toyota Corolla",
-            "Honda Civic",
-            "Volkswagen Golf",
-            "Ford F-150",
-            "Chevrolet Silverado",
-            "BMW 3 Series",
-            "Mercedes-Benz C-Class",
-            "Audi A4",
-            "Hyundai Tucson",
-            "Kia Sportage",
-            "Nissan Rogue",
-            "Subaru Outback",
-            "Mazda CX-5",
-            "Volvo XC60",
-            "Tesla Model 3",
-            "Jeep Wrangler",
-            "Land Rover Defender",
-            "Porsche 911",
-            "Fiat 500",
-            "Renault Clio",
-            "Peugeot 208",
-            "Škoda Octavia",
-            "Lexus RX",
-            "Mitsubishi Outlander",
-            "Suzuki Swift",
-            "Ford Mustang",
-            "Dodge Charger",
-            "Chrysler 300",
-            "Jaguar F-Pace",
-            "Mini Cooper",
-            "Alfa Romeo Giulia",
-            "Genesis G70",
-            "Ram 1500",
-            "GMC Sierra",
-            "Cadillac Escalade"
-        ].randomElement() ?? "Cadillac Escalade"
+            // Common/weak passwords
+            "123456",
+            "password",
+            "qwerty",
+            "abc123",
+            "admin",
+            "123456789",
+            "111111",
+            "123123",
+            "letmein",
+            "welcome",
+            
+            // Simple patterns
+            "654321",
+            "000000",
+            "121212",
+            "987654",
+            "password1",
+            
+            // Passwords with special characters
+            "pass@123",
+            "123!@#",
+            "test#456",
+            "admin*123",
+            "secure$2024",
+            
+            // Upper/lowercase mix
+            "SecurePass123",
+            "TestPassword",
+            "AaBbCc123",
+            "Password2024",
+            "AdminRoot",
+            
+            // Long passwords (for length testing)
+            "thisIsAVeryLongPasswordWithMoreThan30Chars!",
+            "LoremIpsumDolorSitAmet1234567890",
+            
+            // Passwords with spaces (for input validation)
+            "password with space",
+            " 123 456 ",
+            
+            // Edge cases
+            "", // (empty)
+            " ", // (space)
+            "!@#$%^&*()", // (special chars only)
+            "１２３４５６" // (Unicode full-width numbers)
+        ].randomElement() ?? "password with space"
     }
     
     required public init() {}

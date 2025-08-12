@@ -7,7 +7,7 @@
 
 import Foundation
 
-public class FakeBrazilianStates:FalsifiedDataProtocol {
+public class FakeBrazilianStates: FalsifiedDataProtocol {
     
     public typealias Value = String
     
@@ -41,7 +41,7 @@ public class FakeBrazilianStates:FalsifiedDataProtocol {
             "Sergipe",
             "Tocantins"
         ].randomElement() ?? "Paraná"
-
+        
     }
     
     required public init() {}

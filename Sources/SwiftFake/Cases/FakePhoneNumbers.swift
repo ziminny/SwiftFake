@@ -1,5 +1,5 @@
 //
-//  FakeAddresses.swift
+//  FakePhoneNumbers.swift
 //  SwiftFake
 //
 //  Created by Vagner Oliveira on 11/08/25.
@@ -7,61 +7,63 @@
 
 import Foundation
 
-public class FakeAddresses: FalsifiedDataProtocol {
+public class FakePhoneNumbers: FalsifiedDataProtocol {
     
     public typealias Value = String
     
     public var value:Value {
         [
-          "Rua das Flores, 123, São Paulo, SP, Brasil, 01001-000",
-          "Main Street, 456, Nova York, NY, Estados Unidos, 10001",
-          "Rue de la Paix, 78, Paris, Île-de-France, França, 75002",
-          "Oxford Street, 15, Londres, Inglaterra, Reino Unido, W1D 1BS",
-          "Akihabara, 3-2-1, Tóquio, Kanto, Japão, 101-0021",
-          "Calle Gran Vía, 32, Madri, Comunidade de Madri, Espanha, 28013",
-          "Alexanderplatz, 5, Berlim, Berlim, Alemanha, 10178",
-          "Via del Corso, 117, Roma, Lácio, Itália, 00186",
-          "Queen Street, 48, Auckland, Auckland, Nova Zelândia, 1010",
-          "Robson Street, 800, Vancouver, BC, Canadá, V6B 6A1",
-          "Orchard Road, 250, Singapura, -, Singapura, 238854",
-          "Paseo de la Reforma, 505, Cidade do México, CDMX, México, 06500",
-          "Khao San Road, 102, Bangkok, -, Tailândia, 10200",
-          "Collins Street, 1, Melbourne, Victoria, Austrália, 3000",
-          "Avenida 9 de Julio, 1000, Buenos Aires, CABA, Argentina, C1043",
-          "Nevsky Prospekt, 28, São Petersburgo, -, Rússia, 191186",
-          "Johan Huizingalaan, 400, Amsterdã, Holanda do Norte, Países Baixos, 1066 JS",
-          "Banpo-daero, 15, Seul, -, Coreia do Sul, 06578",
-          "Rambla de Catalunya, 7, Barcelona, Catalunha, Espanha, 08007",
-          "Königsallee, 60, Düsseldorf, NRW, Alemanha, 40212",
-          "Rua Augusta, 1500, Lisboa, Lisboa, Portugal, 1000",
-          "Fifth Avenue, 720, Nova York, NY, Estados Unidos, 10019",
-          "Pudong Avenue, 500, Xangai, Xangai, China, 200120",
-          "La Rambla, 99, Barcelona, Catalunha, Espanha, 08002",
-          "Rua do Ouvidor, 50, Rio de Janeiro, RJ, Brasil, 20040",
-          "Champs-Élysées, 86, Paris, Île-de-France, França, 75008",
-          "Ginza, 4-6-16, Tóquio, Kanto, Japão, 104-0061",
-          "Myeongdong-gil, 26, Seul, -, Coreia do Sul, 04536",
-          "Bahnhofstrasse, 75, Zurique, Zurique, Suíça, 8001",
-          "Khalifa Street, 12, Abu Dhabi, Abu Dhabi, Emirados Árabes, 123456",
-          "Bourke Street, 600, Melbourne, Victoria, Austrália, 3000",
-          "Avenida Paulista, 900, São Paulo, SP, Brasil, 01310",
-          "Ipanema Beach, 200, Rio de Janeiro, RJ, Brasil, 22410",
-          "Damrak, 1-5, Amsterdã, Holanda do Norte, Países Baixos, 1012 LG",
-          "Nathan Road, 188, Hong Kong, -, Hong Kong, 999077",
-          "Istiklal Caddesi, 124, Istambul, Istambul, Turquia, 34433",
-          "Las Vegas Boulevard, 3500, Las Vegas, NV, Estados Unidos, 89109",
-          "Rue du Rhône, 120, Genebra, Genebra, Suíça, 1204",
-          "Copacabana Beach, 190, Rio de Janeiro, RJ, Brasil, 22070",
-          "Strøget, 10, Copenhague, Hovedstaden, Dinamarca, 1200",
-          "Via Condotti, 8, Roma, Lácio, Itália, 00187",
-          "Sunset Boulevard, 9000, Los Angeles, CA, Estados Unidos, 90069",
-          "Rua da Boa Vista, 25, São Paulo, SP, Brasil, 01014",
-          "Praca do Comercio, 1, Lisboa, Lisboa, Portugal, 1100",
-          "Kärntner Straße, 14, Viena, Viena, Áustria, 1010",
-          "Passeig de Gràcia, 92, Barcelona, Catalunha, Espanha, 08008",
-          "Rua Santa Ifigênia, 200, São Paulo, SP, Brasil, 01207",
-          "Shinjuku-dori, 1-2, Tóquio, Kanto, Japão, 160-0022",
-          "Kruisstraat, 22, Bruxelas, Bruxelas, Bélgica, 1000"
+          "+55 11 98765-4321",         // Brasil (São Paulo)
+          "+1 212-555-0187",           // EUA (Nova York)
+          "+44 20 7946 0958",          // Reino Unido (Londres)
+          "+33 1 42 68 53 00",         // França (Paris)
+          "+49 30 901820",             // Alemanha (Berlim)
+          "+39 06 6988 0433",          // Itália (Roma)
+          "+34 91 398 43 00",          // Espanha (Madri)
+          "+81 3-1234-5678",           // Japão (Tóquio)
+          "+52 55 1234 5678",          // México
+          "+61 2 9876 5432",           // Austrália (Sydney)
+          "+86 10 5980 1234",          // China (Pequim)
+          "+82 2-312-3456",            // Coreia do Sul (Seul)
+          "+7 495 123-45-67",          // Rússia (Moscou)
+          "+31 20 123 4567",           // Holanda (Amsterdã)
+          "+41 22 345 67 89",          // Suíça (Genebra)
+          "+351 21 123 4567",          // Portugal (Lisboa)
+          "+90 212 123 4567",          // Turquia (Istambul)
+          "+971 4 123 4567",           // Emirados Árabes (Dubai)
+          "+27 11 123 4567",           // África do Sul (Joanesburgo)
+          "+91 11 2345 6789",          // Índia (Nova Delhi)
+          "+65 6123 4567",             // Singapura
+          "+60 3-1234 5678",           // Malásia (Kuala Lumpur)
+          "+66 2 123 4567",            // Tailândia (Bangkok)
+          "+84 24 1234 5678",          // Vietnã (Hanói)
+          "+62 21 1234-5678",          // Indonésia (Jacarta)
+          "+63 2 8123 4567",           // Filipinas (Manila)
+          "+972 3 123 4567",           // Israel (Tel Aviv)
+          "+20 2 1234 5678",           // Egito (Cairo)
+          "+234 1 123 4567",           // Nigéria (Lagos)
+          "+54 11 1234-5678",          // Argentina (Buenos Aires)
+          "+56 2 2123 4567",           // Chile (Santiago)
+          "+57 1 123 4567",            // Colômbia (Bogotá)
+          "+51 1 123 4567",            // Peru (Lima)
+          "+58 212 123 4567",          // Venezuela (Caracas)
+          "+593 2 123 4567",           // Equador (Quito)
+          "+598 2 123 4567",           // Uruguai (Montevidéu)
+          "+595 21 123 4567",          // Paraguai (Assunção)
+          "+507 123 4567",             // Panamá
+          "+506 2234 5678",            // Costa Rica
+          "+52 55 1234 5678",          // México (Cidade do México)
+          "+1 809 123 4567",           // República Dominicana
+          "+1 787 123 4567",           // Porto Rico
+          "+64 9 123 4567",            // Nova Zelândia (Auckland)
+          "+46 8 123 4567",            // Suécia (Estocolmo)
+          "+47 22 12 34 56",           // Noruega (Oslo)
+          "+45 32 12 34 56",           // Dinamarca (Copenhague)
+          "+358 9 123 4567",           // Finlândia (Helsinque)
+          "+353 1 123 4567",           // Irlanda (Dublin)
+          "+43 1 123 4567",            // Áustria (Viena)
+          "+420 2 123 4567",           // República Tcheca (Praga)
+          "+48 22 123 4567"            // Polônia (Varsóvia)
         ].randomElement() ?? "João Victor Lima"
     }
 

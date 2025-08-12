@@ -1,5 +1,5 @@
 //
-//  FakeEmails.swift
+//  FakeCompanies.swift
 //  PasseiOAB
 //
 //  Created by Vagner Oliveira on 16/11/23.
@@ -7,116 +7,65 @@
 
 import Foundation
 
-public class FakeEmails: FalsifiedDataProtocol {
+public class FakeCompanies: FalsifiedDataProtocol {
     
     public typealias Value = String
     
     public var value: Value {
         [
-            "joaosilva@gmail.com",
-            "anapereira@hotmail.com",
-            "pedro.santos@uol.com.br",
-            "marialima@vivaldi.net",
-            "carlosrodrigues@gmail.com",
-            "fernanda.almeida@hotmail.com",
-            "ricardo.oliveira@uol.com.br",
-            "camila.souza@vivaldi.net",
-            "gabrielgoncalves@gmail.com",
-            "lucasferreira@hotmail.com",
-            "tatiane.silveira@uol.com.br",
-            "rafael.alves@vivaldi.net",
-            "patricia.carvalho@gmail.com",
-            "marcosrocha@hotmail.com",
-            "vanessa.gomes@uol.com.br",
-            "bruno.martins@vivaldi.net",
-            "julianapereira@gmail.com",
-            "andre.silva@hotmail.com",
-            "carolinaalmeida@uol.com.br",
-            "eduardo.rodrigues@vivaldi.net",
-            "julianaoliveira@gmail.com",
-            "leandro.souza@hotmail.com",
-            "thaisgoncalves@uol.com.br",
-            "rodrigoalves@vivaldi.net",
-            "juliacarvalho@gmail.com",
-            "fabio.freitas@hotmail.com",
-            "sabrina.martins@uol.com.br",
-            "marcelo.gomes@vivaldi.net",
-            "alicecarvalho@gmail.com",
-            "leonardo.mendes@hotmail.com",
-            "amandaoliveira@uol.com.br",
-            "fernando.santos@vivaldi.net",
-            "milenagoncalves@gmail.com",
-            "diego.rocha@hotmail.com",
-            "carlamartins@uol.com.br",
-            "victor.freitas@vivaldi.net",
-            "anaclara.souza@gmail.com",
-            "sergio.gomes@hotmail.com",
-            "leticiacarvalho@uol.com.br",
-            "renato.mendes@vivaldi.net",
-            "jessicasilva@gmail.com",
-            "marceloalmeida@hotmail.com",
-            "larissa.rodrigues@uol.com.br",
-            "thiago.alves@vivaldi.net",
-            "isabela.martins@gmail.com",
-            "gustavo.gomes@hotmail.com",
-            "larissasilva@uol.com.br",
-            "fernando.carvalho@vivaldi.net",
-            "biancafreitas@gmail.com",
-            "rodrigomartins@hotmail.com",
-            "julianalima@uol.com.br",
-            "lucas.rocha@vivaldi.net",
-            "marina.freitas@gmail.com",
-            "brunooliveira@hotmail.com",
-            "gabrielamartins@uol.com.br",
-            "tiagorodrigues@vivaldi.net",
-            "ana.freitas@gmail.com",
-            "thiagolima@hotmail.com",
-            "luiz.gomes@uol.com.br",
-            "nataliasilva@vivaldi.net",
-            "david.santos@gmail.com",
-            "carolinamartins@hotmail.com",
-            "paulo.alves@uol.com.br",
-            "marianalima@vivaldi.net",
-            "luis.rodrigues@gmail.com",
-            "tatianamartins@hotmail.com",
-            "rodrigofreitas@uol.com.br",
-            "leticia.oliveira@vivaldi.net",
-            "lucas.mendes@gmail.com",
-            "isabellagomes@hotmail.com",
-            "pedro.rocha@uol.com.br",
-            "amandarodrigues@vivaldi.net",
-            "andreia.souza@gmail.com",
-            "vinicius.martins@hotmail.com",
-            "vivian.freitas@uol.com.br",
-            "lucasrodrigues@vivaldi.net",
-            "caroline.souza@gmail.com",
-            "gustavoalves@hotmail.com",
-            "lucia.rocha@uol.com.br",
-            "renan.santos@vivaldi.net",
-            "bianca.silva@gmail.com",
-            "rafael.gomes@hotmail.com",
-            "marinamartins@uol.com.br",
-            "brunasilva@vivaldi.net",
-            "juliomendes@gmail.com",
-            "juliamartins@hotmail.com",
-            "anderson.souza@uol.com.br",
-            "fernandalima@vivaldi.net",
-            "leonardogomes@gmail.com",
-            "isabelarodrigues@hotmail.com",
-            "mateus.silva@uol.com.br",
-            "daniel.freitas@vivaldi.net",
-            "clarasilva@gmail.com",
-            "felipe.martins@hotmail.com",
-            "cristinaalves@uol.com.br",
-            "pedro.freitas@vivaldi.net",
-            "brunorodrigues@gmail.com",
-            "vivian.souza@hotmail.com",
-            "lucasoliveira@uol.com.br",
-            "maria.freitas@vivaldi.net",
-            "tiagomartins@gmail.com",
-            "lais.silva@hotmail.com"
+          "Quantum Innovations Inc.",        // Tecnologia (EUA)
+          "Nexus Global Solutions",         // Consultoria (Reino Unido)
+          "Solaris Renewable Energy",       // Energia (Alemanha)
+          "Azure Dynamics Group",           // Tecnologia (Canadá)
+          "TerraFirma Agrotech",           // Agronegócio (Brasil)
+          "Pacific BioSciences",           // Biotecnologia (Japão)
+          "Horizon Financial Group",       // Finanças (Hong Kong)
+          "Vertex Aerospace",              // Aeroespacial (França)
+          "OmniHealth Systems",           // Saúde (Suíça)
+          "Neon Digital Media",           // Mídia (Coreia do Sul)
+          "Alpine Logistics Network",      // Logística (Áustria)
+          "Magna Steel Industries",        // Siderurgia (Índia)
+          "Crystal Pharma Group",          // Farmacêutica (Suécia)
+          "UrbanBloom Architecture",       // Arquitetura (Holanda)
+          "Pinnacle Retail Group",         // Varejo (EUA)
+          "Aurora AI Technologies",        // IA (China)
+          "Maritime Shipping Co.",         // Transporte (Singapura)
+          "EcoSphere Sustainability",      // Sustentabilidade (Dinamarca)
+          "Golden Grain Foods",            // Alimentos (Argentina)
+          "Titan Automotive Systems",      // Automotivo (Alemanha)
+          "Nimbus Cloud Computing",        // TI (Irlanda)
+          "Sapphire Jewelry Group",        // Luxo (Itália)
+          "BlueWave Marine Research",      // Oceanografia (Austrália)
+          "Summit Construction Ltd.",      // Construção (Canadá)
+          "Vista Hospitality Group",       // Hotelaria (Espanha)
+          "Orion Space Technologies",      // Espaço (EUA)
+          "Polaris Defense Systems",       // Defesa (Israel)
+          "TerraNova Mining Corp.",        // Mineração (África do Sul)
+          "NovaTextile International",     // Têxtil (Bangladesh)
+          "Infinito Gaming Studios",       // Games (Japão)
+          "Zenith Education Group",        // Educação (Finlândia)
+          "Apex Robotics",                // Robótica (Coreia do Sul)
+          "SolarWing Aviation",            // Aviação (França)
+          "GreenField Agriculture",        // Agricultura (Brasil)
+          "Crimson Fashion House",         // Moda (Itália)
+          "NeoBank Financial",             // Fintech (Reino Unido)
+          "Titanium Security Group",       // Segurança (EUA)
+          "AquaPure Water Solutions",      // Meio Ambiente (Suíça)
+          "Velocity Telecom",             // Telecomunicações (Índia)
+          "Stellar Entertainment",        // Entretenimento (EUA)
+          "Fusion Culinary Group",        // Gastronomia (França)
+          "Horizon Media Productions",     // Produção de Mídia (Canadá)
+          "EcoMotion Electric Vehicles",  // Veículos Elétricos (China)
+          "SkyHigh Drones",               // Drones (Israel)
+          "NutriGrow FoodTech",           // FoodTech (Holanda)
+          "BioGen Research Labs",         // Pesquisa Médica (Suécia)
+          "UrbanZen Wellness",            // Bem-estar (EUA)
+          "TerraMagna Construction",      // Construção (Emirados Árabes)
+          "OptiMax Logistics",            // Logística (Singapura)
+          "Infinite Learning Systems",    // EdTech (Índia)
+          "NovaPharm Healthcare"          // Saúde (Alemanha)
         ]
-.randomElement() ?? "lais.silva@hotmail.com"
+.randomElement() ?? "NovaPharm Healthcare"
     }
     
     required public init() {}

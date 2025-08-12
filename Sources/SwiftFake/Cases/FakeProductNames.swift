@@ -1,5 +1,5 @@
 //
-//  FakeSocialMediaHandles.swift
+//  FakeProductNames.swift
 //  SwiftFake
 //
 //  Created by Vagner Oliveira on 11/08/25.
@@ -7,93 +7,62 @@
 
 import Foundation
 
-public class FakeSocialMediaHandles: FalsifiedDataProtocol {
+public class FakeProductNames: FalsifiedDataProtocol {
     
     public typealias Value = String
     
     public var value:Value {
         [
-            // Twitter/X
-            "@QuantumPioneer",
-            "@CyberNomad42",
-            "@PixelProphet",
-            "@NeonDreamer_",
-            "@StellarByte",
-            "@NovaVoyager",
-            
-            // Instagram
-            "@cosmic.creator",
-            "@digital.alchemist",
-            "@phantom.lens",
-            "@urbex.tales",
-            "@midnight.scribbles",
-            "@retro.futurism",
-            
-            // TikTok
-            "@glitch.citizen",
-            "@data.raven",
-            "@synth.wave",
-            "@chaos.theorist",
-            "@analog.adventurer",
-            
-            // Gamers
-            "@SteelShadow_GG",
-            "@NovaFang_127",
-            "@RiftWarden",
-            "@ZeroLagNinja",
-            "@PwnerOfNoobs",
-            
-            // Tech/Coding
-            "@TheCodingYoda",
-            "@BugHunterPrime",
-            "@StackOverflower",
-            "@NullPointerExcept",
-            "@GitCommitDie",
-            
-            // Art/Creators
-            "@VectorVandal",
-            "@ClaymationKing",
-            "@TheDoodleMage",
-            "@PhotoshopWizard",
-            "@3DPrintGoblin",
-            
-            // Music
-            "@SynthVandal",
-            "@ChordChaos",
-            "@BassDropBandit",
-            "@FretlessWonder",
-            "@ThereminThief",
-            
-            // Funny/Random
-            "@DadJokeOverlord",
-            "@ExistentialBurrito",
-            "@WiFiTherapy",
-            "@404PersonalityNotFound",
-            "@BananaEquivalentDose",
-            
-            // Professional
-            "@UX_Architect",
-            "@GrowthHackLord",
-            "@DataShaman",
-            "@StartupOracle",
-            "@FintechFuturist",
-            
-            // Hashtags
-            "#DigitalNomadLife",
-            "#CodeAndCoffee",
-            "#SynthwaveAesthetic",
-            "#RetroFuturism",
-            "#GlitchArt",
-            "#UrbanExploration",
-            "#AIIsArt",
-            
-            // Twitch Style
-            "@TheRealFrameDrop",
-            "@LoadingScreenLord",
-            "@PotionSellerTV",
-            "@CriticalMiss",
-            "@LagWizard"
-        ].randomElement() ?? "@LagWizard"
+            "Rice",
+            "Beans",
+            "Sugar",
+            "Salt",
+            "Cooking Oil",
+            "Wheat Flour",
+            "Powdered Milk",
+            "Instant Coffee",
+            "Tea Bags",
+            "Crackers",
+            "Spaghetti Pasta",
+            "Tomato Sauce",
+            "Bar Soap",
+            "Anti-Dandruff Shampoo",
+            "Toothpaste",
+            "Toilet Paper",
+            "Liquid Dish Soap",
+            "Fabric Softener",
+            "Mineral Water",
+            "Cola Soda",
+            "White Bread",
+            "Eggs (Dozen)",
+            "Chicken Breast",
+            "Ground Beef",
+            "Frozen Vegetables",
+            "Potato Chips",
+            "Dark Chocolate",
+            "Plain Yogurt",
+            "Cheese Slices",
+            "Bottled Water (500ml)",
+            "Energy Drink",
+            "Pain Reliever (Ibuprofen)",
+            "Band-Aids",
+            "Hand Sanitizer",
+            "Cotton Swabs",
+            "Disposable Razors",
+            "LED Light Bulb",
+            "AA Batteries",
+            "USB Cable",
+            "Notebook (Paper)",
+            "Ballpoint Pen",
+            "Paper Towels",
+            "Garbage Bags",
+            "All-Purpose Cleaner",
+            "Laundry Detergent",
+            "Sunscreen Lotion",
+            "Deodorant (Roll-On)",
+            "Pet Food (Dry)",
+            "Baby Diapers"
+        ].randomElement() ?? "Baby Diapers"
     }
     
     required public init() {}

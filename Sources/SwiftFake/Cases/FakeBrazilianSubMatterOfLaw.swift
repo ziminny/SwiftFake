@@ -1,5 +1,5 @@
 //
-//  FakeBrazilianSities.swift
+//  FakeBrazilianSubMatterOfLaw..swift
 //  PasseiOAB
 //
 //  Created by Vagner Oliveira on 21/12/23.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-public class FakeSubmatter: FalsifiedDataProtocol {
+public class FakeBrazilianSubMatterOfLaw: FalsifiedDataProtocol {
     
     public typealias Value = String
     

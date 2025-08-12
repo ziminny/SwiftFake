@@ -7,7 +7,7 @@
 
 import Foundation
 
-class FakeCars:FalsifiedDataProtocol {
+class FakeCars: FalsifiedDataProtocol {
     
     public typealias Value = String
     
@@ -55,9 +55,9 @@ class FakeCars:FalsifiedDataProtocol {
             "Renault Clio"
         ].randomElement() ?? "Genesis G80"
     }
-
+    
     required public init() {}
-
+    
 }
 
 

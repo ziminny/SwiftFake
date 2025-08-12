@@ -7,11 +7,11 @@
 
 import Foundation
 
-public class FakeAges:FalsifiedDataProtocol {
+public class FakeAges: FalsifiedDataProtocol {
     
     public typealias Value = Int16
     
-    public var value:Value { Int16.random(in: 18...75) }
+    public var value: Value { Int16.random(in: 18...75) }
     
     required public init() {}
     

@@ -1,5 +1,5 @@
 //
-//  FakeBrazilianSities.swift
+//  FakeBrazilianQuestionsOfLaw.swift
 //  PasseiOAB
 //
 //  Created by Vagner Oliveira on 21/12/23.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-public class FakeQuention: FalsifiedDataProtocol {
+public class FakeBrazilianQuestionsOfLaw: FalsifiedDataProtocol {
     
     public typealias Value = String
     

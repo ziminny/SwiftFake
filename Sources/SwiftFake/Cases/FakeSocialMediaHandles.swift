@@ -1,5 +1,5 @@
 //
-//  FakeNames.swift
+//  FakeSocialMediaHandles.swift
 //  SwiftFake
 //
 //  Created by Vagner Oliveira on 11/08/25.
@@ -7,65 +7,95 @@
 
 import Foundation
 
-public class FakeNames: FalsifiedDataProtocol {
+public class FakeSocialMediaHandles: FalsifiedDataProtocol {
     
     public typealias Value = String
     
     public var value:Value {
         [
-          "James Wilson",
-          "Sophia Chen",
-          "Liam García",
-          "Emma Müller",
-          "Noah Kim",
-          "Olivia Smith",
-          "William Papadopoulos",
-          "Ava González",
-          "Benjamin Rossi",
-          "Isabella Dubois",
-          "Lucas Ivanov",
-          "Mia Johansson",
-          "Alexander Nguyen",
-          "Charlotte O'Connor",
-          "Henry Schmidt",
-          "Amelia Santos",
-          "Michael Petrov",
-          "Harper Takahashi",
-          "Daniel López",
-          "Evelyn Andersen",
-          "Matthew Kowalski",
-          "Abigail Silva",
-          "Jackson Bauer",
-          "Emily Ferrari",
-          "Sebastian Novak",
-          "Elizabeth Wong",
-          "David Costa",
-          "Sofia Hansen",
-          "Joseph Leblanc",
-          "Victoria Sokolov",
-          "Samuel Ricci",
-          "Scarlett Eriksson",
-          "John Moreau",
-          "Chloe Weber",
-          "Oliver Fischer",
-          "Lily Horvat",
-          "Jack De Luca",
-          "Zoey Jensen",
-          "Luke Van der Berg",
-          "Hazel Costa",
-          "Ethan Popescu",
-          "Grace Nakatani",
-          "Carter De Vries",
-          "Riley Kovač",
-          "Gabriel D'Souza",
-          "Stella Björnsson",
-          "Ryan O'Reilly",
-          "Penelope Volkova",
-          "Nathan Abramović",
-          "Aurora De Rosa"
-        ].randomElement() ?? "João Victor Lima"
+            // Twitter/X
+            "@QuantumPioneer",
+            "@CyberNomad42",
+            "@PixelProphet",
+            "@NeonDreamer_",
+            "@StellarByte",
+            "@NovaVoyager",
+            
+            // Instagram
+            "@cosmic.creator",
+            "@digital.alchemist",
+            "@phantom.lens",
+            "@urbex.tales",
+            "@midnight.scribbles",
+            "@retro.futurism",
+            
+            // TikTok
+            "@glitch.citizen",
+            "@data.raven",
+            "@synth.wave",
+            "@chaos.theorist",
+            "@analog.adventurer",
+            
+            // Gamers
+            "@SteelShadow_GG",
+            "@NovaFang_127",
+            "@RiftWarden",
+            "@ZeroLagNinja",
+            "@PwnerOfNoobs",
+            
+            // Tech/Coding
+            "@TheCodingYoda",
+            "@BugHunterPrime",
+            "@StackOverflower",
+            "@NullPointerExcept",
+            "@GitCommitDie",
+            
+            // Art/Creators
+            "@VectorVandal",
+            "@ClaymationKing",
+            "@TheDoodleMage",
+            "@PhotoshopWizard",
+            "@3DPrintGoblin",
+            
+            // Music
+            "@SynthVandal",
+            "@ChordChaos",
+            "@BassDropBandit",
+            "@FretlessWonder",
+            "@ThereminThief",
+            
+            // Funny/Random
+            "@DadJokeOverlord",
+            "@ExistentialBurrito",
+            "@WiFiTherapy",
+            "@404PersonalityNotFound",
+            "@BananaEquivalentDose",
+            
+            // Professional
+            "@UX_Architect",
+            "@GrowthHackLord",
+            "@DataShaman",
+            "@StartupOracle",
+            "@FintechFuturist",
+            
+            // Hashtags
+            "#DigitalNomadLife",
+            "#CodeAndCoffee",
+            "#SynthwaveAesthetic",
+            "#RetroFuturism",
+            "#GlitchArt",
+            "#UrbanExploration",
+            "#AIIsArt",
+            
+            // Twitch Style
+            "@TheRealFrameDrop",
+            "@LoadingScreenLord",
+            "@PotionSellerTV",
+            "@CriticalMiss",
+            "@LagWizard"
+        ].randomElement() ?? "@LagWizard"
     }
-
+    
     required public init() {}
-
+    
 }

@@ -1,5 +1,5 @@
 //
-//  FakeCountries.swift
+//  FakeCurrencies.swift
 //  PasseiOAB
 //
 //  Created by Vagner Oliveira on 16/11/23.
@@ -7,36 +7,35 @@
 
 import Foundation
 
-public class FakeCountries: FalsifiedDataProtocol {
+public class FakeCurrencies: FalsifiedDataProtocol {
     
     public typealias Value = String
     
     public var value: Value {
         [
-            // Real Countries
-            "United States", "Canada", "Mexico", "Brazil", "Argentina",
-            "United Kingdom", "Germany", "France", "Italy", "Spain",
-            "Japan", "South Korea", "China", "India", "Australia",
-            "South Africa", "Nigeria", "Egypt", "Kenya", "Morocco",
-            
-            // Fictional/Alternative Countries
-            "Pacific Federation", "New Granada", "East Arcadia",
-            "Republic of Montania", "Federal States of Oceania",
-            "United Provinces of Borealis", "Commonwealth of Meridian",
-            "People's Republic of Astoria", "Kingdom of Caledonia",
-            "Free Land of Novaria",
-            
-            // More Real Countries
-            "Portugal", "Netherlands", "Belgium", "Switzerland", "Sweden",
-            "Norway", "Denmark", "Finland", "Poland", "Ukraine",
-            "Russia", "Turkey", "Saudi Arabia", "Iran", "Pakistan",
-            
-            // More Fictional Places
-            "Democratic Union of Zenith", "Federated Atolls",
-            "Volis Republic", "The Sundered Isles", "Nova Carpathia",
-            "Republic of Westarctica", "Principality of Vikesland"
+            "HKD - HK$ (Hong Kong Dollar)",
+            "KRW - ₩ (South Korean Won)",
+            "THB - ฿ (Thai Baht)",
+            "AED - د.إ (UAE Dirham)",
+            "ARS - $ (Argentine Peso)",
+            "CLP - $ (Chilean Peso)",
+            "COP - $ (Colombian Peso)",
+            "PEN - S/ (Peruvian Sol)",
+            "ILS - ₪ (Israeli Shekel)",
+            "EGP - E£ (Egyptian Pound)",
+            "NGN - ₦ (Nigerian Naira)",
+            "ZAR - R (South African Rand)",
+            "PLN - zł (Polish Złoty)",
+            "CZK - Kč (Czech Koruna)",
+            "HUF - Ft (Hungarian Forint)",
+            "RON - lei (Romanian Leu)",
+            "PHP - ₱ (Philippine Peso)",
+            "MYR - RM (Malaysian Ringgit)",
+            "IDR - Rp (Indonesian Rupiah)",
+            "VND - ₫ (Vietnamese Dong)",
+            "BDT - ৳ (Bangladeshi Taka)"
         ]
-            .randomElement() ?? "Volis Republic"
+            .randomElement() ?? "BDT - ৳ (Bangladeshi Taka)"
     }
     
     required public init() {}

@@ -7,7 +7,7 @@
 
 import Foundation
 
-public class FakeInteger16:FalsifiedDataProtocol {
+public class FakeInteger16: FalsifiedDataProtocol {
             
     public typealias Value = Int16
     
@@ -16,7 +16,7 @@ public class FakeInteger16:FalsifiedDataProtocol {
     required public init() {}
 }
 
-public class FakeInteger32:FalsifiedDataProtocol {
+public class FakeInteger32: FalsifiedDataProtocol {
             
     public typealias Value = Int32
     
@@ -25,7 +25,7 @@ public class FakeInteger32:FalsifiedDataProtocol {
     required public init() {}
 }
 
-public class FakeInteger64:FalsifiedDataProtocol {
+public class FakeInteger64: FalsifiedDataProtocol {
             
     public typealias Value = Int64
     
@@ -34,7 +34,7 @@ public class FakeInteger64:FalsifiedDataProtocol {
     required public init() {}
 }
 
-public class FakeDouble:FalsifiedDataProtocol {
+public class FakeDouble: FalsifiedDataProtocol {
             
     public typealias Value = Double
     

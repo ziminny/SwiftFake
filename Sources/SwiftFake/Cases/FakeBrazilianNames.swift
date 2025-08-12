@@ -1,5 +1,5 @@
 //
-//  FakeNames.swift
+//  FakeBrazilianNames.swift
 //  PasseiOAB
 //
 //  Created by Vagner Oliveira on 01/11/23.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-public class FakeNames: FalsifiedDataProtocol {
+public class FakeBrazilianNames: FalsifiedDataProtocol {
     
     public typealias Value = String
     

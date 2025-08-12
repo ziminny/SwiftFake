@@ -7,7 +7,7 @@
 
 import Foundation
 
-public class FakeBrazilianCompanies:FalsifiedDataProtocol {
+public class FakeBrazilianCompanies: FalsifiedDataProtocol {
     public typealias Value = String
     
     public var value: Value {
@@ -101,7 +101,7 @@ public class FakeBrazilianCompanies:FalsifiedDataProtocol {
             "MundoVerde Produtos Naturais Ltda",
             "InovaMind Consultoria e Tecnologia Ltda",
             "AlphaTech Tecnologia e Inovação S.A.",
-            "EcoGreen Soluções Sustentáveis Ltda",].randomElement() ?? "098.765.432-99"
+            "EcoGreen Soluções Sustentáveis Ltda",].randomElement() ?? "AlphaTech Tecnologia e Inovação S.A."
     }
     
     required public init() {}

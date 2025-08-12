@@ -7,7 +7,7 @@
 
 import Foundation
 
-public class FakeAcronymsBrazilianStates:FalsifiedDataProtocol {
+public class FakeAcronymsBrazilianStates: FalsifiedDataProtocol {
     
     public typealias Value = String
     
