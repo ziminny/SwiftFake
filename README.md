@@ -21,7 +21,7 @@ A lightweight Swift library for generating realistic fake data. Perfect for test
 Add to your `Package.swift`:
 ```swift
 dependencies: [
-    .package(url: "https://github.com/yourusername/SwiftFake.git", from: "1.0.0")
+    .package(url: "https://github.com/ziminny/SwiftFake.git", from: "1.0.0")
 ]
 ```
 
